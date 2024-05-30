@@ -1,0 +1,5 @@
+let a = 8 / 2 * 2;
+alert(a); // 2
+
+let a = 8 * 4 / 2 / 2;
+alert(a); // 8
