@@ -1,10 +1,14 @@
-class Employee {
+let user1 = new Employee;
+let user2 = new Employee;
 
-}
-let user = new Employee;
-Employee.name = 'john';
-Employee.age = '13';
-Employee.salary = '2000';
-console.log(Employee.name);
-console.log(Employee.age);
-console.log(Employee.salary);
+user1.name = 'john';
+user2.name = 'eric';
+
+user1.salary = '1000'
+user1.salary = '2000'
+
+console.log(user1.name);
+console.log(user2.name);
+
+console.log(user1.salary);
+console.log(user2.salary);
